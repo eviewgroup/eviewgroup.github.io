@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial|Caveat+Brush');
+
+
+h1{
+	font-family: 'Questrial', sans-serif;
+	font-size: 90px;
+	font-weight: bold;
+	color: #0CC6CB;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Questrial', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: #0CC6CB;
+}
+
+h5{
+	font-family: 'Questrial', sans-serif;
+	font-size:	30px;
+	color: #0CC6CB;
+}
+
+body{
+	font-family: 'Questrial', sans-serif;
+	font-size: 24px;
+	color: #5C595B;
+}
+
+#slogan{
+	font-style: italic;
+	font-family: 'Caveat Brush', cursive;
+}
