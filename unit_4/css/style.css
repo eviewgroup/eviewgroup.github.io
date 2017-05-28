@@ -1,32 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial|Caveat+Brush');
-img { width:300px; }
-* { margin:0; padding:0; box-sizing:border-box; }
+
+img {
+	width:500px;
+}
+
 body{
 	font-family: 'Questrial', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	color: #5C595B;
+	line-height: 1.7em;
+	margin: 4em;
+	padding-left: 4em;
+	padding-right: 35em;
 }
 section {
 	padding:5em 0;
 }
 h1{
-	font-size: 3em;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 4em;
+	font-style: italic;
 	font-weight: bold;
 	color: #0CC6CB;
 	text-align: center;
 }
 
 h2{
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: bold;
 	color: #0CC6CB;
+	line-height: 1.2em;
 }
 
 h3{
 	font-size:	1.5em;
+	font-weight: normal;
 	color: #0CC6CB;
 }
-#slogan{
-	font-style: italic;
-	font-family: 'Caveat Brush', cursive;
-}
+
+
