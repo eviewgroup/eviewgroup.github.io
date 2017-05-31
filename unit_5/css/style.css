@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial|Caveat+Brush');
+
+
+body{
+	font-family: 'Questrial', sans-serif;
+	font-size: 18px;
+	color: #5C595B;
+	line-height: 1.7em;
+}
+section {
+	padding:5em 0;
+}
+h1{
+	font-family: 'Caveat Brush', cursive;
+	font-size: 4em;
+	font-style: italic;
+	font-weight: bold;
+	color: #0CC6CB;
+	text-align: center;
+}
+
+h2{
+	font-size: 3em;
+	font-weight: bold;
+	color: #0CC6CB;
+	line-height: 1.2em;
+}
+
+h3{
+	font-size:	1.5em;
+	font-weight: normal;
+	color: #0CC6CB;
+}
+
+#button {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1em 3em 1em 3em;
+	background-color: #0CC6CB;
+}
+
+#podcast-button {
+	color: #0CC6CB;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1em 3em 1em 3em;
+	background-color: white;
+}
+
+#who-we-are, #services, #coaching, #blog, #contact{
+	padding: 1em 50em 1em 4em
+}
+
+#business-network {
+	background-color: #898BFF;
+	padding: 4em 50em 4em 4em;
+}
+
