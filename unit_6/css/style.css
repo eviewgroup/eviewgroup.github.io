@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial|Caveat+Brush');
 
-/** { margin:0; padding:0; box-sizing:border-box; }*/
+* { margin:0; padding:0; box-sizing:border-box; }
 
 header {
 	background-color: #FFED74;
@@ -138,8 +138,7 @@ h3{
 	border: 1px black solid;
 	padding: 20px;
 }
-
-section#intro {
+#intro {
     background: url(../images/manos_maria.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -150,9 +149,9 @@ section#intro {
 	padding: 20px;
 }
 
-section#on-the-couch{
+#on-the-couch{
 	background: url(../images/on_the_couch.jpg);
-	background-size: cover:
+	background-size: cover;
 	background-repeat: no-repeat;
 	height: 82vh;
 
@@ -161,14 +160,24 @@ section#on-the-couch{
 	padding: 20px;
 }
 
-section#download {
+#download {
     background: url(../images/sixty_second.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    color:#fff;
     width: 100%;
 
     background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
 }
-
+#download h2 {
+	color:inherit;
+}
+.clearfix:after {
+	clear:both;
+	content:"";
+	display:block;
+	height:0;
+	visibility:hidden;
+}
