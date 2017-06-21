@@ -38,9 +38,9 @@ body{
 
 footer {
 	text-align: center;
-	background-color: #D9D9D9;
-	color: #4F5452;
-	padding: 0 0 2em 0;
+	background-color: #0CC6CB;
+	color: #fff;
+	padding: 1em 0 2em 0;
 }
 
 h1{
@@ -118,10 +118,10 @@ h3{
 }
 
 #who-we-are, #services, #coaching #blog-one{
-	width: 50%;
-	padding: 6em;
+	width: 500px;
+	margin: 6em;
 	float: left;
-	background-color: #D9D9D9;
+/*	background-color: #D9D9D9;*/
 	clear: both;
 
 }
@@ -154,8 +154,12 @@ h3{
 }
 
 #business-network {
-	background-color: #D7E5E1;
+	background-color: black;
 	padding: 4em 50em 4em 4em;
+}
+
+#business-network p {
+	color: #fff;
 }
 
 #lets-connect {
@@ -204,5 +208,4 @@ h3{
 	margin: .2em 0 0 0;
 
 }
-
 
