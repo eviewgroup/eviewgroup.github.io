@@ -2,7 +2,8 @@
 
 nav {
 	background-color: #fff;
-	margin: 0 6em 0 6em;
+	padding: 1em 2.5em;
+	margin: 0
 
 }
 
@@ -11,16 +12,6 @@ body{
 	font-size: 18px;
 	color: #5C595B;
 	line-height: 1.7em;
-}
-
-a {
-	background-color: #fff;
-	color: #0CC6CB;
-	text-decoration: none;
-	display: block;
-	float: right;
-	padding: .5em 2em .5em 2em;
-	margin: .8em 0 0 0;
 }
 
 h1{
@@ -37,6 +28,7 @@ h2{
 	font-size:	1.5em;
 	font-weight: normal;
 	color: #0CC6CB;
+
 }
 
 h3{
@@ -44,6 +36,18 @@ h3{
 	font-weight: bold;
 	color: #0CC6CB;
 	line-height: 1.2em;
+
+}
+
+.nav-links {
+	background-color: #fff;
+	color: #0CC6CB;
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding: .5em 2em .5em 2em;
+	margin: .8em 0 0 0;
+	font-size: 1.2em;
 }
 
 .clearfix:after {
@@ -75,21 +79,28 @@ a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: .5em 1em .5em 1em;
-	display: inline-block;
+	display: block;
 	background-color: #0CC6CB;
+	position: absolute;
+	width: 180px;
+	margin: 0 auto;
 }
 
-#who-we-are-copy, #services-copy, #coaching-copy, #blog-article-copy, #contact-manos, #business-network-copy	{
-	width: 50%;
+#who-we-are-copy, #services-copy, #coaching-copy, #blog-article-copy, #contact-manos, #contact-maria, #business-network-copy, #download-copy	{
+	width: 36%;
+	margin: 2% 7%;
 	float: left;
 	background-color: #fff;
+	height: 600px;
 /*	background-color: red;*/
 }
 
-#who-we-are-image, #services-image, #coaching-image, #blog-article-image, #contact-maria, #business-network-image	{
+#who-we-are-image, #services-image, #coaching-image, #blog-article-image, #business-network-image, #download-image	{
 	width: 50%;
+	margin: 2% 0;
 	float: right;
 	background-color: #fff;
+	height: 600px;
 /*	background-color: blue;*/
 }
 
@@ -142,11 +153,14 @@ a:hover {
 	margin: 0em 0em 0em 1em;
 }
 
-section#download {
-    background: url(../images/sixty_second.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
+#contact-copy {
+	margin: 15% 25% 0 25%;
+	text-align: center;
+}
+
+#contact-form {
+	width: 500px;
+	margin: 0 auto;
 }
 
 input {
@@ -181,9 +195,6 @@ input[type=submit] {
 	margin: 1em 0 2em 0;
 	border-radius: 4px;
 }
-
-
-
 
 footer {
 	color: #fff;
