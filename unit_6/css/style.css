@@ -1,31 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial|Caveat+Brush');
 
-* { margin:0; padding:0; box-sizing:border-box; }
-
-header {
-
-}
-
 nav {
-	background-color: white;
-	font-family: 'Questrial', sans-serif;
-	font-size: 1.15em;
-	padding: .5em 6em .5em 6em;
-}
+	background-color: #fff;
+	margin: 0 6em 0 6em;
 
-a {
-/*	background-color: #ff7900;*/
-	color: #0CC6CB;
-	text-decoration: none;
-	display: block;
-	float: right;
-	padding: .5em 2em .5em 2em;
-}
-
-a:hover {
-	background-color: #0CC6CB;
-/*	color: #000026;*/
-	color: white;
 }
 
 body{
@@ -35,12 +13,14 @@ body{
 	line-height: 1.7em;
 }
 
-
-footer {
-	text-align: center;
-	background-color: #0CC6CB;
-	color: #fff;
-	padding: 1em 0 2em 0;
+a {
+	background-color: #fff;
+	color: #0CC6CB;
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding: .5em 2em .5em 2em;
+	margin: .8em 0 0 0;
 }
 
 h1{
@@ -54,16 +34,39 @@ h1{
 }
 
 h2{
+	font-size:	1.5em;
+	font-weight: normal;
+	color: #0CC6CB;
+}
+
+h3{
 	font-size: 3em;
 	font-weight: bold;
 	color: #0CC6CB;
 	line-height: 1.2em;
 }
 
-h3{
-	font-size:	1.5em;
-	font-weight: normal;
-	color: #0CC6CB;
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+a:hover {
+	background-color: #0CC6CB;
+	color: white;
+}
+
+#intro-video {
+	position: absolute;
+	z-index: -1;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: auto;
 }
 
 .welcome-cta {
@@ -76,24 +79,26 @@ h3{
 	background-color: #0CC6CB;
 }
 
-.white-cta {
-	color: #0CC6CB;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: .5em 1em .5em 1em;
-	display: inline-block;
-	background-color: white;
-	margin: 4em;
+#who-we-are-copy, #services-copy, #coaching-copy, #blog-article-copy, #contact-manos, #business-network-copy	{
+	width: 50%;
+	float: left;
+	background-color: #fff;
+/*	background-color: red;*/
 }
 
-.blue-cta {
-	color: white;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: .5em 1em .5em 1em;
-	display: inline-block;
-	background-color: #0CC6CB;
-	margin: 4em 0em 0em 0em;
+#who-we-are-image, #services-image, #coaching-image, #blog-article-image, #contact-maria, #business-network-image	{
+	width: 50%;
+	float: right;
+	background-color: #fff;
+/*	background-color: blue;*/
+}
+
+#couch-video	{
+	z-index: -1;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: auto;
 }
 
 .video-cta {
@@ -107,109 +112,83 @@ h3{
 	display: inline-block;
 }
 
-.connect-cta {
+.blue-cta {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: .5em 1em .5em 1em;
+	display: inline-block;
+	background-color: #0CC6CB;
+	margin: 4em 0em 4em 0em;
+}
+
+.white-cta {
 	color: #0CC6CB;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: .5em 1em .5em 1em;
 	display: inline-block;
 	background-color: white;
+	margin: 4em;
+}
+
+.connect-cta {
+	color: #0CC6CB;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: .5em 1em .5em 1em;
+	display: inline-block;
+	background-color: #fff;
 	margin: 0em 0em 0em 1em;
 }
 
-#intro-video {
-	position: absolute;
-	z-index: -1;
-	left: 0px;
-	top: 0px;
-}
-
-#who-we-are, #services, #coaching #blog-one{
-	width: 500px;
-	margin: 6em;
-	float: left;
-/*	background-color: #D9D9D9;*/
-	clear: both;
-
-}
-
-#who-we-are-image, #services-image, #coaching-image #blog-image{
-	width: 50%;
-	float: right;
-/*	clear: both;*/
-	background-color: blue;
-}
-
-
-.clearfix:after {
-	visibility:  hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
-/*#blog, #contact {
-	width: 400px;
-	margin: 6em;
-}*/
-
-#contact {
-	text-align: center;
-}
-
-#business-network {
-	background-color: black;
-	padding: 4em 50em 4em 4em;
-}
-
-#business-network p {
-	color: #fff;
-}
-
-#lets-connect {
-	background-color: #0CC6CB;
-	color: white;
-	text-align: center;
-	padding: 2em 0 2em 0;
-}
-/*#intro {
-    background: url(../images/manos_maria.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}*/
-
-/*#on-the-couch{
-	background: url(../images/on_the_couch.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 82vh;
-}*/
-
-#download {
+section#download {
     background: url(../images/sixty_second.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    color:#fff;
     width: 100%;
-    height:600px;
-
-}
-#download h2, p {
-	color:inherit;
-	margin: 0 6em 0 0;
 }
 
-.form-box {
-	display: block;
-	width:	500px;
-	padding: .5em 1em .5em 1em;
-	background-color: white;
-	border: 1px #D9D9D9 solid;
-	text-align: left;
+input {
+	width: 500px;
+}
+
+input[type=text], input[type=email]{
+	font-family: 'Questrial', sans-serif;
+	font-size: 18px;
 	color: #5C595B;
-	margin: .2em 0 0 0;
+	line-height: 1.7em;
+	padding: .2em .8em;
+	margin: 1em 0 0 0;
+	box-sizing: border-box;
+	border: 2px solid #E4E2E5;
+	border-radius: 4px;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+	border: 2px solid #C1BFC2;
+	outline: none;
+}
+
+input[type=submit] {
+	background-color: #0CC6CB;
+	border: none;
+	color: #fff;
+	padding: .7em 1em;
+	text-decoration: none;
+	font-family: 'Questrial', sans-serif;
+	font-size: 18px;
+	margin: 1em 0 2em 0;
+	border-radius: 4px;
+}
+
+
+
+
+footer {
+	color: #fff;
+	text-align: center;
+	background-color: #0CC6CB;
+	padding: 20px;
 
 }
