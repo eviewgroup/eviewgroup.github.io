@@ -121,6 +121,7 @@ a:hover {
 	padding: .5em 1em .5em 1em;
 	background-color: white;
 	display: inline-block;
+	border-radius: 4px;
 }
 
 .blue-cta {
@@ -131,6 +132,7 @@ a:hover {
 	display: inline-block;
 	background-color: #0CC6CB;
 	margin: 4em 0em 4em 0em;
+	border-radius: 4px;
 }
 
 .white-cta {
@@ -141,6 +143,7 @@ a:hover {
 	display: inline-block;
 	background-color: white;
 	margin: 4em;
+	border-radius: 4px;
 }
 
 .connect-cta {
@@ -151,6 +154,7 @@ a:hover {
 	display: inline-block;
 	background-color: #fff;
 	margin: 0em 0em 0em 1em;
+	border-radius: 4px;
 }
 
 #contact-copy {
