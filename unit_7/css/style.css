@@ -86,7 +86,7 @@ a:hover {
 	margin: 0 auto;
 }
 
-#who-we-are-copy, #services-copy, #coaching-copy, #blog-article-copy, #contact-manos, #contact-maria, #business-network-copy, #download-copy	{
+#who-we-are-copy, #services-copy, #coaching-copy, #blog-article-copy, #business-network-copy, #download-copy	{
 	width: 36%;
 	margin: 2% 7%;
 	float: left;
@@ -98,7 +98,7 @@ a:hover {
 #who-we-are-image, #services-image, #coaching-image, #blog-article-image, #business-network-image, #download-image	{
 	width: 50%;
 	margin: 2% 0;
-	float: right;
+	float: left;
 	background-color: #fff;
 	height: 600px;
 /*	background-color: blue;*/
@@ -135,6 +135,11 @@ a:hover {
 	border-radius: 4px;
 }
 
+/*.blue-cta:hover	{
+	background-color: #0CC6CB;
+	color: white;
+}*/
+
 .white-cta {
 	color: #0CC6CB;
 	text-decoration: none;
@@ -157,6 +162,7 @@ a:hover {
 	border-radius: 4px;
 }
 
+
 #contact-copy {
 	margin: 15% 25% 0 25%;
 	text-align: center;
@@ -165,6 +171,20 @@ a:hover {
 #contact-form {
 	width: 500px;
 	margin: 0 auto;
+}
+
+#contact-manos, #contact-maria {
+	width: 36%;
+	margin: 2% 7%;
+	float: left;
+	background-color: #fff;
+	text-align: center;
+/*	background-color: red;*/
+}
+
+.contact-email {
+	text-decoration: none;
+	color: #0CC6CB;
 }
 
 input {
