@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial|Caveat+Brush');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+nav {
+	background-color: #fff;
+	padding: 1em;
+
+
+}
+
+body{
+	font-family: 'Questrial', sans-serif;
+	font-size: 1.1em;
+	color: #5C595B;
+	line-height: 1.7em;
+}
+
+h1{
+	font-family: 'Caveat Brush', cursive;
+	font-size: 7em;
+	line-height: 1em;
+	font-style: italic;
+	font-weight: bold;
+	color: #0CC6CB;
+	text-align: center;
+}
+
+h2{
+	font-size:	1.5em;
+	font-weight: normal;
+	color: #0CC6CB;
+
+}
+
+h3{
+	font-size: 3em;
+	font-weight: bold;
+	color: #0CC6CB;
+	line-height: 1.2em;
+
+}
+
+
+.nav-links {
+	background-color: #fff;
+	color: #0CC6CB;
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding: .5em 2em .5em 2em;
+	margin: .8em 0 0 0;
+	font-size: 1.2em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+a:hover {
+	background-color: #0CC6CB;
+	color: white;
+}
+
+video {
+	z-index: -1;
+	left: 0px;
+	width: 100%;
+}
+
+#into-video {
+	position: absolute;
+	top: 5em;
+	height: 104vh;
+}
+
+.welcome-cta {
+	color: white;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: .5em 1em .5em 1em;
+	display: inline-block;
+	background-color: #0CC6CB;
+	text-align: center;
+
+}
+
+
+.columns>* {
+	width: 36%;
+	margin: 0% 7%;
+	float: left;
+	padding: 2% 0% 2% 0%;
+	top: 10em;
+}
+
+#download-image {
+	z-index: -1
+	height: 20%;
+	width: 100%;
+}
+
+#download {
+	text-align: center;
+}
+
+.video-cta {
+	color: #0CC6CB;
+	text-decoration: none;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+	padding: .5em 1em .5em 1em;
+	background-color: white;
+	display: inline-block;
+	border-radius: 0.3em;
+}
+
+.blue-cta {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: .5em 1em .5em 1em;
+	display: inline-block;
+	background-color: #0CC6CB;
+	margin: 4em 0em 4em 0em;
+	border-radius: 0.3em;
+}
+
+/*.blue-cta:hover	{
+	background-color: #0CC6CB;
+	color: white;
+}*/
+
+.white-cta {
+	color: #0CC6CB;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: .5em 1em .5em 1em;
+	display: inline-block;
+	background-color: white;
+	margin: 4em;
+	border-radius: 0.3em;
+}
+
+.connect-cta {
+	color: #0CC6CB;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: .5em 1em .5em 1em;
+	display: inline-block;
+	background-color: #fff;
+	margin: 0em 0em 0em 1em;
+	border-radius: 0.3em
+}
+
+
+#contact-copy {
+	margin: 15% 25% 0 25%;
+	text-align: center;
+}
+
+#contact-form {
+	width: 500px;
+	margin: 0 auto;
+}
+
+#contact-manos, #contact-maria {
+	width: 36%;
+	margin: 2% 7%;
+	float: left;
+	background-color: #fff;
+	text-align: center;
+/*	background-color: red;*/
+}
+
+.contact-email {
+	text-decoration: none;
+	color: #0CC6CB;
+}
+
+input {
+	width: 500px;
+}
+
+input[type=text], input[type=email]{
+	font-family: 'Questrial', sans-serif;
+	font-size: 1.1em;
+	color: #5C595B;
+	line-height: 1.7em;
+	padding: .2em .8em;
+	margin: 1em 0 0 0;
+	box-sizing: border-box;
+	border: 0.08em solid #E4E2E5;
+	border-radius: 0.3em;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+	border: 0.08em solid #C1BFC2;
+	outline: none;
+}
+
+input[type=submit] {
+	background-color: #0CC6CB;
+	border: none;
+	color: #fff;
+	padding: .7em 1em;
+	text-decoration: none;
+	font-family: 'Questrial', sans-serif;
+	font-size: 1.1em;
+	margin: 1em 0 2em 0;
+	border-radius: 0.3em;
+}
+
+footer {
+	color: #fff;
+	text-align: center;
+	background-color: #0CC6CB;
+	padding: 1.3em;
+
+}
+
+
+ class="columns clearfix"

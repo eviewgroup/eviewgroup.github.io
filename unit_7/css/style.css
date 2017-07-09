@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial|Caveat+Brush');
 
+* { margin:0; padding:0; box-sizing:border-box; }
+
 nav {
 	background-color: #fff;
-	padding: 1em 2.5em;
-	margin: 0
+
 
 }
 
@@ -16,7 +17,7 @@ body{
 
 h1{
 	font-family: 'Caveat Brush', cursive;
-	font-size: 8em;
+	font-size: 7em;
 	line-height: 1em;
 	font-style: italic;
 	font-weight: bold;
@@ -37,6 +38,11 @@ h3{
 	color: #0CC6CB;
 	line-height: 1.2em;
 
+}
+
+
+#logo-image {
+	width: 10%;
 }
 
 .nav-links {
@@ -64,13 +70,14 @@ a:hover {
 	color: white;
 }
 
-#intro-video {
+video {
 	position: absolute;
 	z-index: -1;
 	left: 0px;
-	top: 0px;
+	top: 5em;
 	width: 100%;
-	height: auto;
+	height: 80vh;
+	border: 1px solid red;
 }
 
 .welcome-cta {
@@ -79,20 +86,32 @@ a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: .5em 1em .5em 1em;
-	display: block;
+	display: inline-block;
 	background-color: #0CC6CB;
-	position: absolute;
-	width: 180px;
-	margin: 0 auto;
+	text-align: center;
+
 }
 
-#who-we-are-copy, #services-copy, #coaching-copy, #blog-article-copy, #business-network-copy, #download-copy	{
+
+.columns>* {
+	width: 36%;
+	margin: 2% 7%;
+	float: left;
+	padding: 2% 0% 2% 10%;
+	border: 1px solid red;
+	top: 10em;
+	height: 600px;
+}
+
+
+
+/*#who-we-are-copy, #services-copy, #coaching-copy, #blog-article-copy, #business-network-copy, #download-copy	{
 	width: 36%;
 	margin: 2% 7%;
 	float: left;
 	background-color: #fff;
 	height: 600px;
-/*	background-color: red;*/
+	background-color: red;
 }
 
 #who-we-are-image, #services-image, #coaching-image, #blog-article-image, #business-network-image, #download-image	{
@@ -101,8 +120,8 @@ a:hover {
 	float: left;
 	background-color: #fff;
 	height: 600px;
-/*	background-color: blue;*/
-}
+	background-color: blue;
+}*/
 
 #couch-video	{
 	z-index: -1;
