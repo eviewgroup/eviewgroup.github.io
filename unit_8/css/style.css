@@ -18,12 +18,13 @@ body{
 
 h1{
 	font-family: 'Caveat Brush', cursive;
-	font-size: 7em;
+	font-size: 6em;
 	line-height: 1em;
 	font-style: italic;
 	font-weight: bold;
 	color: #0CC6CB;
 	text-align: center;
+	margin: 1em 0 0 0;
 }
 
 h2{
@@ -71,15 +72,20 @@ video {
 	z-index: -1;
 	left: 0px;
 	width: 100%;
+	height: 90vh;
+}
+
+#intro {
+	height: 80vh;
+	text-align: center;
 }
 
 #into-video {
 	position: absolute;
 	top: 5em;
-	height: 104vh;
 }
 
-.welcome-cta {
+ #welcome-cta{
 	color: white;
 	font-size: 1.5em;
 	text-decoration: none;
@@ -88,16 +94,34 @@ video {
 	display: inline-block;
 	background-color: #0CC6CB;
 	text-align: center;
+	margin: 2em 0;
+	border-radius: 0.3em;
 
 }
 
 
 .columns>* {
 	width: 36%;
-	margin: 0% 7%;
+	margin: 3% 7%;
 	float: left;
-	padding: 2% 0% 2% 0%;
 	top: 10em;
+	/*border: 1px solid blue;*/
+}
+
+#couch-head {
+	text-align: center;
+	padding: 2em 0 0 0;
+	font-size: 3em;
+	font-weight: bold;
+	color: #0CC6CB;
+	line-height: 1.2em;
+}
+
+iframe {
+	height: 500px;
+	width: 100%;
+	margin: 4em 0em 4em;
+	border: 1px solid blue;
 }
 
 #download-image {
@@ -106,20 +130,17 @@ video {
 	width: 100%;
 }
 
+
 #download {
-	text-align: center;
+	background: url(../images/sixty_second.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    text-align: center;
 }
 
-.video-cta {
-	color: #0CC6CB;
-	text-decoration: none;
-	font-size: 1.5em;
-	text-transform: uppercase;
-	text-align: center;
-	padding: .5em 1em .5em 1em;
-	background-color: white;
-	display: inline-block;
-	border-radius: 0.3em;
+.sixty-sec {
+	padding: 2em 0 0 0;
 }
 
 .blue-cta {
@@ -180,6 +201,7 @@ video {
 /*	background-color: red;*/
 }
 
+
 .contact-email {
 	text-decoration: none;
 	color: #0CC6CB;
@@ -188,6 +210,8 @@ video {
 input {
 	width: 500px;
 }
+
+
 
 input[type=text], input[type=email]{
 	font-family: 'Questrial', sans-serif;
@@ -217,6 +241,8 @@ input[type=submit] {
 	margin: 1em 0 2em 0;
 	border-radius: 0.3em;
 }
+
+
 
 footer {
 	color: #fff;
