@@ -31,6 +31,7 @@ h2{
 	font-size:	1.5em;
 	font-weight: normal;
 	color: #0CC6CB;
+	padding: 0 0 1.5em 0;
 
 }
 
@@ -39,6 +40,7 @@ h3{
 	font-weight: bold;
 	color: #0CC6CB;
 	line-height: 1.2em;
+	padding: 0 0 1.5em 0;
 
 }
 
@@ -121,7 +123,7 @@ iframe {
 	height: 500px;
 	width: 100%;
 	margin: 4em 0em 4em;
-	border: 1px solid blue;
+/*	border: 1px solid blue;*/
 }
 
 #download-image {
@@ -253,4 +255,52 @@ footer {
 }
 
 
- class="columns clearfix"
+@media only screen and (max-width: 768px) {
+	.nav-links {
+		float: none;
+		width: auto;
+		text-align: center;
+	}
+
+	.columns>* {
+		float: none;
+		width: 90%;
+	}
+
+	h2 {
+		padding: 1em;
+	}
+
+	h3 {
+		text-align: center;
+		padding: 1em;
+	}
+
+}
+
+@media only screen and (max-width: 600PX) {
+	
+	iframe {
+	height: 400px;
+	}
+}
+
+@media only screen and (max-width: 580PX) {
+	
+	#contact-manos, #contact-maria {
+	float: none;
+	margin: 0 auto;
+	padding: 1em 0;
+	}
+}
+
+@media only screen and (max-width: 430PX) {
+	
+	iframe {
+	height: 300px;
+	}
+
+	input {
+	width: 380px;
+	}
+}
