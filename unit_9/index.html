@@ -9,20 +9,19 @@
 <body>
 	<header>
 		<nav>
-			<a href="index.html"><img src="images/M&M Logo - FULL COLOUR.png" alt="M&amp;M logo" height="10%" width="10%">
+			<a href="index.html"><img src="images/M&M Logo - FULL COLOUR.png" alt="M&amp;M logo" id="logo">
 				<a href="contact.html" class="nav-links">Contact</a>
-				<a href="coaching.html" class="nav-links">Coaching</a>
-				<a href="blog.html" class="nav-links">Blog</a>
 				<a href="podcast.html" class="nav-links">Podcast</a>
 		</nav>
 	</header>
 	<section id="intro">
 		<h1>Manos <br>&amp;<br> Maria</h1>
 		<a href="#jump" id="welcome-cta">Contact Us</a>
-		<video width="100%" height="100%" autoplay loop muted id="into-video">
+		<video autoplay loop muted id="into-video">
 			<source src="video/manos_maria_backgroundintro.mp4" type="video/mp4">
 		</video>
 	</section>
+	<main class="clearfix">
 	<section id="who-we-are-copy" class="columns-copy clearfix">
 			<h2>Who we are</h2>
 			<h3>With over 3 decades in business</h3>
@@ -40,10 +39,12 @@
 	<section id="services-image" class="columns-image clearfix">
 		<img src="images/dog_out_car_window.jpg" alt="Dog out car window" width="100%">
 	</section>
+	</main>
 	<section id="on-the-couch">
-			<h3 id="couch-head">On the couch with M &amp; M</h3><iframe src="https://player.vimeo.com/video/212698684?color=0CC6CB&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<a href="podcast.html" id="on-the-couch-link"><h3 id="couch-head">On the couch with M &amp; M</h3></a>
+			<iframe src="https://player.vimeo.com/video/212698684?color=0CC6CB&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</section>
-
+	<div class="clearfix">
 	<section id="coaching" class="columns-copy clearfix">
 			<h2>Coaching</h2>
 			<h3>Business/real estate coaching</h3>
@@ -63,7 +64,7 @@
 	<section id="blog-article-image" class="columns-image clearfix">
 		<img src="images/couple_buying_house.jpg" alt="Couple and real estate agent outside house" width="100%">
 	</section>
-
+	</div>
 		<section id="download">
 			<h3 id="sixty-sec">The 60 Second Entrepreneur</h3>
 			<p id="sixty-claim">Claim your copy now!</p>
@@ -73,12 +74,16 @@
 					<input type="submit" value="Submit">
 				</form>
 	</section>
-
+	<div class="clearfix">
 	<section id="contact">
 		<div id=contact-copy>
 			<h3 id="jump">Contact Us</h3>
 			<p>We would love to hear from you and help you take the next step in business. Please fill out the below form or contact us direct. We look forward to creating sliding door moments in your life. </p>
 		</div>
+
+
+
+
 		<div id="contact-form">
 			<form action="mailto:saratheresadesign@gmail.com?subject=Contact Form Response" method="post" autocomplete="on">
 				<input type="text" name="name" placeholder="Name:" required><br>
@@ -88,6 +93,7 @@
 				<input type="submit" value="Submit">
 			</form>
 		</div>
+	</div>
 		<div id="contact-manos" class="clearfix">
 			<img src="images/manos.jpg" alt="Manos Findikakis Profile Image" width="100%">
 			<h4>Manos Findikakis</h4>
@@ -101,7 +107,7 @@
 			<a href="mailto:maria.findikakis@eview.com.au" class="contact-email">maria@eview.com.au</a>
 		</div>	
 	</section>
-
+	<div class="clearfix">
 
 	<section id="business-network" class="columns-copy clearfix">
 			<h2>Business Network</h2>
@@ -115,10 +121,10 @@
 			<img src="images/ace.png" alt="a.c.e. Logo" height="70px">
 			<img src="images/beyond.png" alt="Beyond Figures Logo" height="70px">
 	</section>
-
+	</div>
 	<footer>
-		<p>Want to chat about your future?<a href="#" class="connect-cta">Let's Connect</a></p>
-		<p>&copy; 2017 Manos &amp; Maria, All Rights Reserved</p>
+		<p>Want to chat about your future?<a href="contact.html" class="connect-cta">Let's Connect</a></p>
+		<p id="copyright-footer">&copy; 2017 Manos &amp; Maria, All Rights Reserved</p>
 	</footer>
 </body>
 </html>
